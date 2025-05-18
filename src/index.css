@@ -1,0 +1,124 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #f0f0f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px;
+}
+
+/* Main container */
+#root, .App {
+  background: rgba(20, 20, 30, 0.95);  /* Darker and more opaque */
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+  max-width: 700px;
+  width: 100%;
+  padding: 40px 30px;
+  color: #f0f0f5;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffd700; /* Brighter gold */
+  text-shadow: 1px 1px 8px #ffd700aa;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 40px 0 20px;
+  color: #ffea00;
+}
+
+/* Paragraphs & Lists */
+p, li {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 10px auto;
+  color: #eaeaea;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Strong emphasis */
+strong {
+  color: #fff176;
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background: #2a2a40; /* Dark solid bg */
+  color: #fff;
+  box-shadow: inset 2px 2px 8px rgba(0,0,0,0.8);
+  transition: background 0.3s ease;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #bbb;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  background: #3f3f6f; /* Slightly lighter */
+}
+
+/* Buttons */
+button {
+  background: #ffd700;
+  color: #222;
+  font-weight: 700;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: 0 6px 12px #ffd700cc;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #ffea00;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}

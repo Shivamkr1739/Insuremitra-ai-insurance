@@ -1,0 +1,33 @@
+AI-First B2C Insurance Product Idea - 'InsureMitra Plus'
+1. Problem Understanding
+India's insurance penetration remains low due to lack of awareness, complexity in policy selection, trust
+issues, and limited digital literacy among a large section of the population. GroMo's partners face challenges
+in scaling distribution to Tier 2, 3, and rural consumers who require personalized, easy-to-understand
+insurance recommendations.
+2. Proposed Solution - InsureMitra Plus
+'InsureMitra Plus' is an AI-powered, multilingual mobile-first insurance advisor that combines conversational
+AI, risk profiling, and dynamic policy recommendation to help Indian households choose the best-fit insurance
+plans with zero manual intervention.
+Key Features:
+- AI Chatbot in 10+ Indian languages for natural conversation
+- Risk Profiling using age, health data, location, dependents, and income
+- Instant Policy Matching with insurer APIs and curated recommendations
+- Smart Claim Assistant to guide users during policy usage
+- Offline Mode with auto-sync for low-connectivity regions
+3. Business Impact
+- Increases partner earnings by boosting conversion through AI-driven personalization
+- Improves user retention by simplifying post-sale engagement (claim, renewal, FAQ)
+- Enhances trust and accessibility, especially in non-English speaking regions
+- Allows partners to handle more clients with less effort using AI assistance
+4. AI Integration
+- NLP models for multilingual understanding and intent classification
+- Machine learning for dynamic risk scoring and plan recommendation
+Page 1
+FinArva AI Hackathon 2025 - Phase 1 Submission
+- OCR for auto-reading documents and supporting claim filing
+- Feedback loop to continuously improve accuracy of suggestions
+5. Simplicity & Usability
+- User-friendly UI optimized for low-end phones
+- Voice input and visual aids to support semi-literate users
+- Single-click application and payment integration
+- Lightweight app with offline support and secure storage
